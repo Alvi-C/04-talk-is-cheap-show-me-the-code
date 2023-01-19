@@ -28,18 +28,6 @@
 10. What is props in react?
     A. In react every components at the end is javascript function so we can pass arguments as the parameters into any functional components
     are called props.
-    Ex.
-    const PassAttributeComponent = (props) => {
-    return (<div style={props.style} key={props.key}>
-    {props.children}</div>)
-    }
-
-    const DisplayAllElements = () => {
-    return (
-    <div>
-        <PassAttributeComponent style={{ color: "red" }} key="05">Hello I am children </PassAttributeComponent>
-    </div>)
-    }
 
 11. What is config driven UI?
     A. A config-driven UI refers to the approach of building user interfaces where the layout, behavior and appearance of the components are determined by a configuration file rather than hard-coded into the application's source code.
